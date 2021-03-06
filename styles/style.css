@@ -26,7 +26,8 @@ h2{
     padding: 20px 50px 30px;
     font-size: 20px;
     border-style: double;
-    border-width: 10px;
+    border-width: 5px;
+    border-radius: 30%;
 }
 h3{
     text-align: right;
@@ -42,6 +43,7 @@ h6{
 #section2 p{
     color: grey;
     padding: 40px 30px;
+   
 }
 #section2 h2{
     color:grey;
@@ -49,20 +51,64 @@ h6{
 }
 
 .mepic{
-    position: relative;
-    left: 350px;
-    top: 100px;
+
     border-style: double;
-    border-width: 10px;
-    border-color: goldenrod;
+    border-width: 7px;
+    border-color:#ffc107;
+    border-radius: 50%;
+   
+}
+.webs:hover{
+    transform: scale(1.2);
 }
 
-footer {
-    padding: 50px 200px 100px;
+   .navbar ul li {
+    display: flex;
+    padding: 0px 8px 0px;
+    white-space: nowrap;
+  } 
+  
+  .navbar ul li:hover {
+    background-color: black;
+    opacity: 0.8;
+  }
+  
+  .navbar ul li a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: black
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+      color: white;
+  }
+  
+  .bg-dark {
+    background-color:#ffc107!important;
+}
+
+  #footer .container-fluid{
+      width: 60%;
+  }
+
+  footer {
+    padding: 20px 100px;
     background-image: url(../img/background5.jfif);
+    background-position-x: right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: #ffc107;
+
 }
 
+footer:hover{
+    opacity: 0.9;
+}
+
+.btn-light{
+    color: black;
+    font-size: 15px;
+}
 
 
