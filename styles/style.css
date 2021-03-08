@@ -4,9 +4,14 @@
     background-size: cover;
     background-position: 70% 30%;
     padding: 50px 150px;
+    border-radius: 30%;
    
 }
-#section2{
+
+body{
+    background-color: beige;
+}
+#projects{
     background-color: beige;
     background-size: contain;
     background-repeat: repeat;
@@ -40,12 +45,12 @@ h6{
     padding-top: 40px;
 }
 
-#section2 p{
+#projects p{
     color: grey;
     padding: 40px 30px;
    
 }
-#section2 h2{
+#projects h2{
     color:grey;
     padding-bottom: 50px;
 }
@@ -83,7 +88,7 @@ h6{
   .navbar-dark .navbar-nav .nav-link{
       color: white;
   }
-  
+
   .bg-dark {
     background-color:#ffc107!important;
 }
@@ -95,7 +100,7 @@ h6{
   footer {
     padding: 20px 100px;
     background-image: url(../img/background5.jfif);
-    background-position-x: right;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #ffc107;
@@ -106,9 +111,14 @@ footer:hover{
     opacity: 0.9;
 }
 
-.btn-light{
-    color: black;
-    font-size: 15px;
+.sr-only{
+    color:  #ffc107;
 }
+
+  .carousel-item > img { 
+      width: 650px;
+     height: 650px; 
+    } 
+      
 
 
