@@ -91,6 +91,7 @@ h6{
 
   .bg-dark {
     background-color:#ffc107!important;
+    width: 150%;
 }
 
   #footer .container-fluid{
@@ -104,7 +105,6 @@ h6{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #ffc107;
-
 }
 
 footer:hover{
@@ -115,10 +115,17 @@ footer:hover{
     color:  #ffc107;
 }
 
-  .carousel-item > img { 
-      width: 650px;
-     height: 650px; 
-    } 
+.carousel-item > img { 
+    width: 650px;
+    height: 650px; 
+} 
+
+@media (max-width: 1130px){
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+}
+}
       
 
 
